@@ -1,19 +1,20 @@
-Docker command line syntax:
-Old: docker <command> options
-New: docker <management command> <command> options
+# Docker command line syntax:
 
-Default image registry for docker is hub.docker.com
+* Old: docker <command> options
+* New: docker <management command> <command> options
 
-List docker images:
-old # docker images
-new # docker image ls
+## Default image registry for docker is hub.docker.com
 
-Start Container from docker image centos :
-old # docker run -it centos
-new # docker container run -it centos
+- [x] List docker images:
+- old : docker images
+- new : docker image ls
 
-Check list of running containers:
-old # docker ps
-new # docker container ps  or # docker container ls
+- [x] Start Container from docker image centos :
+- old : docker run -it centos
+- new : docker container run -it centos
+
+- [x] Check list of running containers:
+- old : docker ps
+- new : docker container ps  or # docker container ls
 
 
